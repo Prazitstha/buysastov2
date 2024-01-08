@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "713319991495",
+    "project_id": "buysastomobile",
+    "storage_bucket": "buysastomobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713319991495:android:4a31c44fd41702c19dd6e2",
+        "android_client_info": {
+          "package_name": "com.buysastomobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713319991495-01v5alhtk52p675jh5jpj3ukreb4icn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzjMGFmy0liGbMC5huaVKKMnm-Ii4Ulls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713319991495-01v5alhtk52p675jh5jpj3ukreb4icn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

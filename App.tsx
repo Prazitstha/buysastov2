@@ -23,11 +23,11 @@ const App: React.FC = () => {
       console.log('Bootsplash has been hidden successfully');
     });
   }, []);
-  useEffect(() => {
-    // Track screen view
-    analytics().setAnalyticsCollectionEnabled(true);
-    console.log('jj');
-  }, []);
+  // useEffect(() => {
+  //   // Track screen view
+  //   analytics().setAnalyticsCollectionEnabled(true);
+  //   console.log('jj');
+  // }, []);
 
   return (
     <SafeAreaView style={{flex: 1}}>
