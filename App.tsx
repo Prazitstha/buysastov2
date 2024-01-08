@@ -6,7 +6,7 @@ import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
 import RNBootSplash from 'react-native-bootsplash';
 import {RootSiblingParent} from 'react-native-root-siblings';
-import analytics from '@react-native-firebase/analytics';
+
 
 import MyApp from './src/MyApp';
 
