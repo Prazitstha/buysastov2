@@ -24,9 +24,9 @@ const App: React.FC = () => {
     });
   }, []);
   // useEffect(() => {
-  //   // Track screen view
-  //   analytics().setAnalyticsCollectionEnabled(true);
-  //   console.log('jj');
+  // // Track screen view
+  // analytics().setAnalyticsCollectionEnabled(true);
+  // console.log('jj');
   // }, []);
 
   return (
