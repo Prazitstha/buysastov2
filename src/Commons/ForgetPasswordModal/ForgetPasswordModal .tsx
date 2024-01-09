@@ -8,7 +8,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import analytics from '@react-native-firebase/analytics';
+// import analytics from '@react-native-firebase/analytics';
 
 import {Colors, HelperFunction, Api} from '../../Constants';
 import styles from './styles/Styles';
@@ -26,10 +26,10 @@ const ForgetPasswordModal: React.FC<ForgetPasswordModalProps> = props => {
   const handleResponse = async () => {
     setIsLoading(true);
     setIsValid(true);
-    analytics().logSelectContent({
-      content_type: 'Forget Password Button Clicked',
-      item_id: 'button2',
-    });
+    // analytics().logSelectContent({
+    //   content_type: 'Forget Password Button Clicked',
+    //   item_id: 'button2',
+    // });
     try {
       const postData = {
         email: email,

@@ -37,6 +37,22 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = buysastomobileapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = buysastomobileapp/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-buysastomobileapp-buysastomobileappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-buysastomobileapp-buysastomobileappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2014D0852B4D06B9005B80AE /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		2014D0862B4D06D6005B80AE /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		2014D0872B4D06D6005B80AE /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		2014D0882B4D06D6005B80AE /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		2014D0892B4D06D6005B80AE /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		2014D08A2B4D06D6005B80AE /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		2014D08B2B4D06D6005B80AE /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		2014D08C2B4D06D6005B80AE /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		2014D08D2B4D06D6005B80AE /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		2014D08E2B4D06D6005B80AE /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		2014D08F2B4D06D6005B80AE /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		2014D0902B4D06D6005B80AE /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		2014D0912B4D06D6005B80AE /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		2014D0922B4D06D6005B80AE /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		2014D0932B4D06D6005B80AE /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		2014D0942B4D06D6005B80AE /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-buysastomobileapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buysastomobileapp.debug.xcconfig"; path = "Target Support Files/Pods-buysastomobileapp/Pods-buysastomobileapp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-buysastomobileapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buysastomobileapp.release.xcconfig"; path = "Target Support Files/Pods-buysastomobileapp/Pods-buysastomobileapp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-buysastomobileapp-buysastomobileappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buysastomobileapp-buysastomobileappTests.debug.xcconfig"; path = "Target Support Files/Pods-buysastomobileapp-buysastomobileappTests/Pods-buysastomobileapp-buysastomobileappTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +112,29 @@
 			name = buysastomobileapp;
 			sourceTree = "<group>";
 		};
+		2014D0842B4D04A3005B80AE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2014D0892B4D06D6005B80AE /* Entypo.ttf */,
+				2014D08B2B4D06D6005B80AE /* EvilIcons.ttf */,
+				2014D08C2B4D06D6005B80AE /* Feather.ttf */,
+				2014D0942B4D06D6005B80AE /* FontAwesome.ttf */,
+				2014D0882B4D06D6005B80AE /* FontAwesome5_Brands.ttf */,
+				2014D0932B4D06D6005B80AE /* FontAwesome5_Regular.ttf */,
+				2014D08E2B4D06D6005B80AE /* FontAwesome5_Solid.ttf */,
+				2014D0912B4D06D6005B80AE /* Fontisto.ttf */,
+				2014D08A2B4D06D6005B80AE /* Foundation.ttf */,
+				2014D0922B4D06D6005B80AE /* Ionicons.ttf */,
+				2014D0902B4D06D6005B80AE /* MaterialCommunityIcons.ttf */,
+				2014D0862B4D06D6005B80AE /* MaterialIcons.ttf */,
+				2014D08D2B4D06D6005B80AE /* Octicons.ttf */,
+				2014D08F2B4D06D6005B80AE /* SimpleLineIcons.ttf */,
+				2014D0872B4D06D6005B80AE /* Zocial.ttf */,
+				2014D0852B4D06B9005B80AE /* AntDesign.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +155,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				2014D0842B4D04A3005B80AE /* Fonts */,
 				13B07FAE1A68108700A75B9A /* buysastomobileapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* buysastomobileappTests */,

@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {useNavigation} from '@react-navigation/native';
-import analytics from '@react-native-firebase/analytics';
+// import analytics from '@react-native-firebase/analytics';
 import {useDispatch, useSelector} from 'react-redux';
 
 import styles from './style/ChangePasswordStyle';
@@ -33,10 +33,10 @@ const ChangePassword = (): JSX.Element => {
 
   const handlePress = async () => {
     setIsLoading(true);
-    analytics().logSelectContent({
-      content_type: 'Changed Password Button Clicked',
-      item_id: 'button4',
-    });
+    // analytics().logSelectContent({
+    //   content_type: 'Changed Password Button Clicked',
+    //   item_id: 'button4',
+    // });
     const postData = {
       password: password,
       newPassword: newPassword,

@@ -7,7 +7,7 @@ const guidelineBaseHeight = 680;
 
 // const BASE_URL = 'http://192.168.1.119:8080'; 
 // const BASE_URL = 'http://192.168.0.105:8080';
-const BASE_URL = 'http://192.168.1.64:8080';
+const BASE_URL = 'http://192.168.1.66:8080';
 
 // 192.168.1.65  mine home
 // 192.168.1.119 office localhost

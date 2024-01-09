@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import axios from 'axios';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import analytics from '@react-native-firebase/analytics';
+// import analytics from '@react-native-firebase/analytics';
 
 import styles from './styles/RegistrationStyles';
 import { Images, Api, Colors, HelperFunction } from '../../Constants';
@@ -28,10 +28,10 @@ const ChangePassword = ({ navigation }): JSX.Element => {
 
   const handleSignUp = async () => {
     setIsLoading(true);
-    analytics().logSelectContent({
-      content_type: 'Register Button Clicked',
-      item_id: 'button3',
-    });
+    // analytics().logSelectContent({
+    //   content_type: 'Register Button Clicked',
+    //   item_id: 'button3',
+    // });
     const postData = {
       email: email,
       password: password,

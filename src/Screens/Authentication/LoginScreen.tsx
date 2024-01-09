@@ -11,7 +11,7 @@ import {
   Modal,
 } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import analytics from '@react-native-firebase/analytics';
+// import analytics from '@react-native-firebase/analytics';
 import {useDispatch, useSelector} from 'react-redux';
 import {useNavigation} from '@react-navigation/native';
 
@@ -54,10 +54,10 @@ const LoginScreen = (): JSX.Element => {
 
   const onPressSignIn = async () => {
     setIsLoading(true);
-    analytics().logSelectContent({
-      content_type: 'Login Button Clicked',
-      item_id: 'button1',
-    });
+    // analytics().logSelectContent({
+    //   content_type: 'Login Button Clicked',
+    //   item_id: 'button1',
+    // });
     try {
       const postData = {
         email: email,

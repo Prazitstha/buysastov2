@@ -12,7 +12,7 @@ import {
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {useNavigation, useRoute} from '@react-navigation/native';
 import axios from 'axios';
-import analytics from '@react-native-firebase/analytics';
+// import analytics from '@react-native-firebase/analytics';
 
 import styles from './styles/EditProfileStyle';
 import {Images, Colors, Api, HelperFunction} from '../../Constants';
@@ -35,10 +35,10 @@ const EditProfile = (): JSX.Element => {
   const [isLoading, setIsLoading] = useState(false);
 
   const handleUpdate = async () => {
-    analytics().logSelectContent({
-      content_type: 'Edit Profile Button Clicked',
-      item_id: 'button5',
-    });
+    // analytics().logSelectContent({
+    //   content_type: 'Edit Profile Button Clicked',
+    //   item_id: 'button5',
+    // });
     const patchData = {
       name: name,
       phone: phone,

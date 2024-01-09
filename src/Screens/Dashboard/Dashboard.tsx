@@ -9,7 +9,7 @@ import {
   ScrollView,
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
-import analytics from '@react-native-firebase/analytics';
+// import analytics from '@react-native-firebase/analytics';
 import {useSelector, useDispatch} from 'react-redux';
 import {useFocusEffect} from '@react-navigation/native';
 import {ActivityIndicator} from 'react-native';
@@ -154,10 +154,10 @@ const Dashboard = (): JSX.Element => {
   // Handle "Load More" onPress action
   const onPressMore = async (productcategory: string) => {
     console.log('buttonid', productcategory);
-    analytics().logSelectContent({
-      content_type: 'Press More Button Clicked',
-      item_id: 'button6',
-    });
+    // analytics().logSelectContent({
+    //   content_type: 'Press More Button Clicked',
+    //   item_id: 'button6',
+    // });
     const products = data.filter( product => product.categoryLabel === productcategory,)
     navigation.navigate('Mobile', {datas: products, productcategory});
   };
@@ -172,10 +172,10 @@ const Dashboard = (): JSX.Element => {
     views: any,
     logo: any,
   ) => {
-    analytics().logSelectContent({
-      content_type: 'Product clicked',
-      item_id: 'button7',
-    });
+    // analytics().logSelectContent({
+    //   content_type: 'Product clicked',
+    //   item_id: 'button7',
+    // });
     navigation.navigate('ProductDetails', {
       price,
       image,
@@ -204,10 +204,10 @@ const Dashboard = (): JSX.Element => {
 
     try {
       // Log an event using Firebase Analytics
-      await analytics().logSelectContent({
-        content_type: 'Bookmark Button Clicked',
-        item_id: 'button1',
-      });
+      // await analytics().logSelectContent({
+      //   content_type: 'Bookmark Button Clicked',
+      //   item_id: 'button1',
+      // });
 
       const params = {
         id: id,
