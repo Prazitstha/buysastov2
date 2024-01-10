@@ -66,12 +66,8 @@ const LoginScreen = (): JSX.Element => {
       console.log('postData:', postData);
       await dispatch(performLogin(postData));
     } catch (e) {
-      console.log('a')
-      showAddToast(
-        loginError,
-        Colors.main_color,
-
-      );
+      console.log('a');
+      showAddToast(loginError, Colors.main_color);
       setIsLoading(false);
     }
     setIsLoading(false);
